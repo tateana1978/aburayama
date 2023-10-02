@@ -49,21 +49,6 @@
         }
     });
 
-
-		// KMLファイルのURL
-		const url = "./SampleData/kml/nanakuma.kml";
-		
-		// KMLファイルからデータを取得するデータソースを作成
-		const dataSource = new Cesium.GeoJsonDataSource({
-		  // KMLファイルを読み込む
-		  url,
-		});
-
-		// データソースをシーンに追加
-		const viewer = new Cesium.Viewer("cesiumContainer");
-		viewer.dataSources.add(dataSource);
-
-
     viewer.zoomTo(viewer.entities);　//レイヤにズーム
       
     </script>
