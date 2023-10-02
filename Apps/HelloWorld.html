@@ -49,6 +49,8 @@
         }
     });
 
+	viewer.dataSources.add(Cesium.KmlDataSource.load("echizen_map.kmz"));
+
     viewer.zoomTo(viewer.entities);　//レイヤにズーム
       
     </script>
