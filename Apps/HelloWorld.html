@@ -32,7 +32,7 @@
 		  baseLayerPicker: true,
 		  timeline : false,
 		  animation : false,
-		  homeButton: false,
+		  homeButton: true,
 		  vrButton: true,
 		  geocoder:false,
 		  sceneModePicker:false,
@@ -41,7 +41,7 @@
       
       var point = viewer.entities.add({
       name:"福岡市城南区七隈", //レイヤ名
-      description:"ここは福岡市城南区七隈です",　//レイヤの説明
+      description:"ここは福岡市城南区七隈です。",　//レイヤの説明
         position : Cesium.Cartesian3.fromDegrees(130.360489,33.529425,900.0), //経度,緯度,高さ
         point : {
             pixelSize : 10, //ポイントのサイズ
